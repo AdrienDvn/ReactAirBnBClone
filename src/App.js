@@ -1,15 +1,18 @@
 // import logo from './logo.svg';
 import React from 'react'
-import '/Users/adrien/code/BobZiroll/airbnbclone/src/App.css';
-import '/Users/adrien/code/BobZiroll/airbnbclone/src/index.css';
-import '/Users/adrien/code/BobZiroll/airbnbclone/src/navbar.css';
+import './App.css';
+import './index.css';
+import './navbar.css';
+import './hero.css';
 
-import Navbar from '/Users/adrien/code/BobZiroll/airbnbclone/src/components/Navbar.js';
+import Navbar from './components/Navbar.js';
+import Hero from './components/Hero.js';
 
 function App() {
   return (
     <div className="App">
       <Navbar/>
+      <Hero/>
     </div>
   );
 }
