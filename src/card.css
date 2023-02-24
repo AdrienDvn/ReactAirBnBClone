@@ -1,0 +1,26 @@
+.card--pic {
+  position: relative;
+  width: 120%;
+}
+
+.container > .hero--gridpic {
+  /* width: 100%; */
+  width: 20%;
+  object-fit: cover;
+  height: auto;
+}
+
+.container > .card--button {
+  position: absolute;
+  top: 12%;
+  left: 44%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #fffefe;
+  color: rgb(84, 80, 80);
+  font-size: 12px;
+  padding: 6px 8px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}

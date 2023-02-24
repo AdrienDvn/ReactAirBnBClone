@@ -1,6 +1,7 @@
 .hero--gridpic {
 /* background-image: url('/Users/adrien/code/BobZiroll/airbnbclone/src/AirBnb photo grid.png'); */
- width: 1250px;
+ max-width: 1250px;
+ align-self: center;
  margin-top: 8px;
 }
 
@@ -18,5 +19,6 @@ p{
 .container {
     /* background-color: #f8f8f8; */
     padding: 20px;
-
+    display: flex;
+    flex-direction: column;
 }
