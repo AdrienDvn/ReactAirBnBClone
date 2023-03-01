@@ -1,19 +1,8 @@
-.card--pic {
-  position: relative;
-  width: 120%;
-}
-
-.container > .hero--gridpic {
-  /* width: 100%; */
-  width: 20%;
-  object-fit: cover;
-  height: auto;
-}
 
 .container > .card--button {
-  position: absolute;
-  top: 12%;
-  left: 44%;
+  /* position: absolute;
+  top: 13%;
+  left: 45%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   background-color: #fffefe;
@@ -22,5 +11,30 @@
   padding: 6px 8px;
   border: none;
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 5px; */
+}
+
+.card {
+  width: 175px;
+  font-size: 12px;
+  margin-left: 4px;
+}
+
+.card--image {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.card--stats {
+  display: flex;
+  align-items: center;
+
+}
+
+.grey {
+  color: #918E9B ;
+}
+
+.bold {
+  font-weight: bolder;
 }
