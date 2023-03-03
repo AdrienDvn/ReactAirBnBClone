@@ -1,20 +1,20 @@
 import React from 'react';
-import logo3 from '/Users/adrien/code/BobZiroll/airbnbclone/src/swimmerBnB reactcard.jpeg'
+// import logo3 from '/Users/adrien/code/BobZiroll/airbnbclone/src/swimmerBnB reactcard.jpeg'
 
-export default function Card() {
+export default function Card(props) {
+  console.log(props);
+
   return (
     <card>
       <div className='card'>
-          <img src={logo3} alt="" className="card--image"/>
-          {/* <button type="button" class="btn btn-tertiary card--button">Sold out */}
-          {/* </button> */}
+        <img src={`/Users/adrien/code/BobZiroll/airbnbclone/src/${props.img}`} alt="" className="card--image"/>
         <div className='card--stats'>
-           <span><i class="fa-solid fa-star"></i>5.0</span>
-           <span className='grey'>(6) </span>
-           <span className='grey'>USA</span>
+           <span><i class="fa-solid fa-star"></i>{props.rating}</span>
+           <span className='grey'>{props.reviewCount} </span>
+           <span className='grey'>{props.country}</span>
         </div>
-          <p > Life lessons with Katie Zaferes</p>
-          <p > <span className='bold'>From 136 $USD</span> / person</p>
+        <p > {props.title}</p>
+        <p > <span className='bold'>From {props.price} $USD</span> / person</p>
       </div>
     </card>
   );

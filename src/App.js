@@ -15,7 +15,14 @@ function App() {
     <div className="App">
       <Navbar/>
       {/* <Hero/> the exercice is to creat an instance of a card before to RE display hero :)*/}
-      <Card/>
+      <Card
+        img="cat.jpeg"
+        rating="5.0"
+        reviewCount= {6}
+        country = "USA"
+        title = 'Life lessons with Katie Zaferes'
+        price={136}
+      />
     </div>
   );
 }
