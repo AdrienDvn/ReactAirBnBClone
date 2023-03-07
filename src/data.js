@@ -1,7 +1,7 @@
 export default [
   {
     id: 1,
-    title: "learn to swim",
+    title: "Learn to swim",
     description: "lorem ipsum blablablabla1",
     price: 27,
     coverImg: "img.png",
@@ -14,7 +14,7 @@ export default [
   },
   {
     id: 2,
-    title: "learn photography",
+    title: "Learn photography",
     description: "lorem photography ipsum blablablabla2",
     price: 150,
     coverImg: "img.png",
@@ -27,7 +27,7 @@ export default [
   },
   {
     id: 3,
-    title: "learn piano",
+    title: "Learn piano",
     description: "Piano lorem ipsum blablablabla3",
     price: 25,
     coverImg: "img.png",
@@ -35,13 +35,13 @@ export default [
       rating: 4.8,
       reviewCount: 17
     },
-    location: "zoom calls online",
+    location: "online",
     openSpots: 2,
   },
   {
     id: 4,
-    title: "learn to cook",
-    description: "cooking life lorem ipsum blablablabla3",
+    title: "Learn to cook",
+    description: "cooking life lorem ipsum blablablabla4",
     price: 50,
     coverImg: "img.png",
     stats: {
