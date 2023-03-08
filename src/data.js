@@ -2,7 +2,7 @@ export default [
   {
     id: 1,
     title: "Learn to swim",
-    description: "lorem ipsum blablablabla1",
+    description: "learn to swimm with the best rated teacher around here and progress like crazy",
     price: 27,
     coverImg: "img.png",
     stats: {
@@ -15,7 +15,7 @@ export default [
   {
     id: 2,
     title: "Learn photography",
-    description: "lorem photography ipsum blablablabla2",
+    description: "Always wanted to learn to take good pics? want no more  and jump in !",
     price: 150,
     coverImg: "img.png",
     stats: {
@@ -28,7 +28,7 @@ export default [
   {
     id: 3,
     title: "Learn piano",
-    description: "Piano lorem ipsum blablablabla3",
+    description: "You want to improve you skills or your wann start from scratch? Enrol for w few lesson just now",
     price: 25,
     coverImg: "img.png",
     stats: {
@@ -41,7 +41,7 @@ export default [
   {
     id: 4,
     title: "Learn to cook",
-    description: "cooking life lorem ipsum blablablabla4",
+    description: "You cook like there's no tomorrow? we got you with fine dining cooking lessons",
     price: 50,
     coverImg: "img.png",
     stats: {
