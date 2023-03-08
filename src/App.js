@@ -12,16 +12,18 @@ import Card from './components/Card.js';
 import data from './data.js';
 
 function App() {
-const cardData = data.map(data => {
+const cards = data.map(item => {
   return <Card
-          id = {data.id}
-          title = {data.title}
-          description = {data.description}
-          price = {data.price}
-          coverImg = {data.coverImg}
-          stats = {data.stats}
-          location = {data.location}
-          openSpots= {data.openSpots}
+          img={item.coverImg} // fix that because it is hard coded for now
+          rating={item.stats.rating}
+          reviewCount={item.stats.reviewCount}
+          location = {item.location}
+          title = {item.title}
+          price = {item.price}
+          id = {item.id}
+          description = {item.description}
+          stats = {item.stats}
+          openSpots= {item.openSpots}
           />
 })
 
@@ -29,9 +31,11 @@ const cardData = data.map(data => {
     <div className="App">
       <Navbar/>
       {/* <Hero/> the exercice is to creat an instance of a card before to RE display hero :)*/}
-      <div className="card--data">
-      {cardData}
-      </div>
+      {/* <div className="card--data"> */}
+      <section className='cards--list'>
+      {cards}
+      </section>
+      {/* </div> */}
 
     </div>
   );
