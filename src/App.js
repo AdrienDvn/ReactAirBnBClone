@@ -15,23 +15,16 @@ function App() {
 const cards = data.map(item => {
   return <Card
           key={item.id}
-          img={item.coverImg} // fix that because it is hard coded for now
-          rating={item.stats.rating}
-          reviewCount={item.stats.reviewCount}
-          location = {item.location}
-          title = {item.title}
-          price = {item.price}
-          id = {item.id}
-          description = {item.description}
-          stats = {item.stats}
-          openSpots= {item.openSpots}
+          item={item}
+          //or {...item} "spread the item syntax", and get rid of .item in the card component, check the doc, but confusing to me at the moment
+
           />
 })
 
   return (
     <div>
       <Navbar/>
-      {/* <Hero/> the exercice is to creat an instance of a card before to RE display hero :)*/}
+      <Hero/>
       {/* <div className="card--data"> */}
       <section className='cards-list'>
       {cards}
