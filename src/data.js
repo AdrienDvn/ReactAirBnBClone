@@ -10,7 +10,7 @@ export default [
       reviewCount: 53
     },
     location: "face to face",
-    openSpots: 27,
+    openSpots: 0,
   },
   {
     id: 2,

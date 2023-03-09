@@ -14,6 +14,7 @@ import data from './data.js';
 function App() {
 const cards = data.map(item => {
   return <Card
+          key={item.id}
           img={item.coverImg} // fix that because it is hard coded for now
           rating={item.stats.rating}
           reviewCount={item.stats.reviewCount}
@@ -28,11 +29,11 @@ const cards = data.map(item => {
 })
 
   return (
-    <div className="App">
+    <div>
       <Navbar/>
       {/* <Hero/> the exercice is to creat an instance of a card before to RE display hero :)*/}
       {/* <div className="card--data"> */}
-      <section className='cards--list'>
+      <section className='cards-list'>
       {cards}
       </section>
       {/* </div> */}
