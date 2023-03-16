@@ -7,17 +7,14 @@
 
 h1 {
   display: flex;
-  /* margin-left: 160px; */
 }
 
 p{
   display: flex;
-  margin-top: 24px;
   text-align: left;
 }
 
 .container {
-    /* background-color: #f8f8f8; */
     padding: 20px;
     display: flex;
     flex-direction: column;

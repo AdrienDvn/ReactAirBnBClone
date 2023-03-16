@@ -1,23 +1,10 @@
 
-.container > .card--button {
-  /* position: absolute;
-  top: 13%;
-  left: 45%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: #fffefe;
-  color: rgb(84, 80, 80);
-  font-size: 12px;
-  padding: 6px 8px;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px; */
-}
 .card {
   width: 14rem;
   height: 30rem;
   margin: 0 auto;
   margin-bottom: 2rem;
+  background-color: #ededee;
   /* font-size: 12px; */
   /* flex: 0 0 auto; */
   /* display: flex; */
@@ -46,15 +33,11 @@
   margin-bottom: 9px;
 }
 
-.card--title {
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
 .card--stats {
   display: flex;
   align-items: center;
   padding-left: 1rem;
+  padding-bottom: 1rem;
 
 }
 
