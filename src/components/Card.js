@@ -1,5 +1,5 @@
 import React from 'react';
-import swimLogo from '../swimmerBnB.jpeg'
+// import swimLogo from '../swimmerBnB.jpeg'
 // import image from '/Users/adrien/code/BobZiroll/airbnbclone/src/catPNG.png';
 
 export default function Card(props) {
@@ -18,9 +18,8 @@ export default function Card(props) {
         {badgeText && <div className= 'card--badge'>{badgeText}</div>}
          {/* JS to say to display the css sold out badge only if the openSpots is empty */}
 
-      {/* <img src={props.img} alt="" className="card--image"/> */}
-        {/* <img src={`../${props.item.coverImg}`} alt="" className="card--image"/> */}
-        <img src= {swimLogo} alt="" className="card--image"/>
+         <img src={props.item.coverImg} alt="" className="card--image container"/>
+        {/* <img src= {swimLogo} alt="" className="card--image"/> */}
         <div className='card--stats'>
            <span><i class="fa-solid fa-star"></i>{props.item.stats.rating}</span>
            <span className='grey'>-({props.item.stats.reviewCount}) </span>
